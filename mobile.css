@@ -1,0 +1,92 @@
+/* Neste documento iremos trabalhar as telas de 767px para baixo*/
+
+@media (max-width: 767px)
+{
+
+    .row
+    {
+        
+        width: 100%;        
+        margin-top: 23%;
+
+    }
+    
+    #div-text1 
+    {
+
+       margin-top: -10%;
+
+    }
+
+    /* Filtro para escurecer a imagem e proteger o texto */
+
+    #title-box1
+    {
+
+        background-color: rgba(0, 0, 0, 0.411);
+        height: 100%;
+        
+    }
+
+    #texto1 
+    {
+
+        font-size: 1.6rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+        margin-top: -30%;
+        color: #00695c;
+
+    }
+
+    #texto2
+    {
+
+        font-size: 0.9rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+        margin-top: -4%;
+        color: #00695c;
+
+    }
+
+    /* Tratamento do quadro superior e inferior direito */
+
+    #texto3, #texto5
+    {
+
+        font-size: 1.6rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+        margin-top: -50%;
+        color: #00695c;
+
+    }
+
+    #texto4, #texto6
+    {
+
+        font-size: 0.9rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+        margin-top: -4%;
+        color: #00695c;
+
+    }
+
+    #div-text2, #div-text3
+    {
+
+        margin-top: 5%;
+        margin-left: -3%;
+
+    }
+
+    #card2, #card3 
+    {
+
+        margin-top: 33%;
+
+    }
+
+}

@@ -26,6 +26,7 @@ html
 
     width: 80%;
     padding-top: 5%;
+    
 }
 
 #card-fluminense
@@ -342,70 +343,3 @@ html
 
 }
 
-@media (max-width: 767px)
-{
-
-    #div-text1 
-    {
-
-        margin-top: -10%;
-
-    }
-
-    /* Filtro para escurecer a imagem e proteger o texto */
-
-    #title-box1
-    {
-
-        background-color: rgba(0, 0, 0, 0.411);
-        height: 100%;
-
-    }
-
-    #texto1 
-    {
-
-        font-size: 1rem;
-        font-weight: bolder;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
-
-    }
-
-    #texto2
-    {
-
-        font-size: 0.7rem;
-        font-weight: bolder;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
-
-    }
-
-    /* Tratamento do quadro superior e inferior direito */
-
-    #texto3, #texto5
-    {
-
-        font-size: 1rem;
-        font-weight: bolder;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
-
-    }
-
-    #texto4, #texto6
-    {
-
-        font-size: 0.7rem;
-        font-weight: bolder;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
-
-    }
-
-    #div-text2, #div-text3
-    {
-
-        margin-top: 5%;
-        margin-left: -3%;
-
-    }
-
-}
