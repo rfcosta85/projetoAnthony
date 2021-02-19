@@ -7,14 +7,14 @@
     {
         
         width: 100%;        
-        margin-top: 23%;
+        margin-top: 30%;
 
     }
     
     #div-text1 
     {
 
-       margin-top: -10%;
+       margin-top: -18%;
 
     }
 
@@ -45,7 +45,7 @@
         font-size: 0.9rem;
         font-weight: bolder;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
-        margin-top: -4%;
+        margin-top: -2%;
         color: #00695c;
 
     }
@@ -58,7 +58,7 @@
         font-size: 1.6rem;
         font-weight: bolder;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
-        margin-top: -50%;
+        margin-top: -55%;
         color: #00695c;
 
     }
@@ -69,7 +69,7 @@
         font-size: 0.9rem;
         font-weight: bolder;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
-        margin-top: -4%;
+        margin-top: -2%;
         color: #00695c;
 
     }
@@ -85,7 +85,189 @@
     #card2, #card3 
     {
 
-        margin-top: 33%;
+        margin-top: 38%;
+
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 424px)
+{
+
+    .row
+    {
+        
+        width: 100%;        
+        margin-top: 40%;
+
+    }
+    
+    #div-text1 
+    {
+
+       margin-top: -28%;
+
+    }
+
+    /* Filtro para escurecer a imagem e proteger o texto */
+
+    #title-box1
+    {
+
+        background-color: rgba(0, 0, 0, 0.411);
+        height: 100%;
+        
+    }
+
+    #texto1 
+    {
+
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+        margin-top: -28%;
+        color: #00695c;
+
+    }
+
+    #texto2
+    {
+
+        font-size: 0.9rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+        margin-top: -4%;
+        color: #00695c;
+
+    }
+
+    /* Tratamento do quadro superior e inferior direito */
+
+    #texto3, #texto5
+    {
+
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+        margin-top: -65%;
+        color: #00695c;
+
+    }
+
+    #texto4, #texto6
+    {
+
+        font-size: 0.9rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+        margin-top: -2%;
+        color: #00695c;
+
+    }
+
+    #div-text2, #div-text3
+    {
+
+        margin-top: 5%;
+        margin-left: -3%;
+
+    }
+
+    #card2, #card3 
+    {
+
+        margin-top: 45%;
+
+    }
+
+}
+
+@media (max-width: 374px)
+{
+
+    .row
+    {
+        
+        width: 100%;        
+        margin-top: 40%;
+
+    }
+    
+    #div-text1 
+    {
+
+       margin-top: -40%;
+
+    }
+
+    /* Filtro para escurecer a imagem e proteger o texto */
+
+    #title-box1
+    {
+
+        background-color: rgba(0, 0, 0, 0.411);
+        height: 100%;
+        
+    }
+
+    #texto1 
+    {
+
+        font-size: 1.3rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+        margin-top: -28%;
+        color: #00695c;
+
+    }
+
+    #texto2
+    {
+
+        font-size: 0.8rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+        margin-top: -3%;
+        color: #00695c;
+
+    }
+
+    /* Tratamento do quadro superior e inferior direito */
+
+    #texto3, #texto5
+    {
+
+        font-size: 1.3rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+        margin-top: -80%;
+        color: #00695c;
+
+    }
+
+    #texto4, #texto6
+    {
+
+        font-size: 0.8rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+        margin-top: -2%;
+        color: #00695c;
+
+    }
+
+    #div-text2, #div-text3
+    {
+
+        margin-top: 5%;
+        margin-left: -3%;
+
+    }
+
+    #card2, #card3 
+    {
+
+        margin-top: 50%;
 
     }
 
