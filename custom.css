@@ -26,7 +26,7 @@ html
 
     width: 80%;
     padding-top: 5%;
-    
+
 }
 
 #card-fluminense
@@ -41,10 +41,48 @@ html
 
 #capa-fluminense
 {
-
+    
     height: 35.5vw;
     
 }
+
+.subtitles-cards-title
+{
+
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-top: 1.5%;
+    margin-left: 3%;
+
+}
+
+.cards-title
+{
+
+    font-size: 1.5rem;
+    color: #00695c;
+    font-weight: bolder;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 1.5%;
+
+}
+
+.links
+{
+
+    margin-top: -3%;
+    margin-left: 3%;
+    margin-right: 1.5%;
+    color: #00695c;
+    
+}
+
+.box-shadown 
+{
+    box-shadow: none;
+}
+
 
 /* Tratamento telas superiores a 1024px até 2000px */
 
