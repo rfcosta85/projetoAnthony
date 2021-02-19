@@ -1,0 +1,411 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html
+{
+    
+    font-family: tahoma;
+
+}
+
+.brand-logo
+{
+
+    font-size: 1.8rem;
+    font-weight: bolder;    
+
+}
+
+.row 
+{
+
+    width: 80%;
+    padding-top: 5%;
+}
+
+#card-fluminense
+{
+
+   height: 35.5vw;
+  
+
+}
+
+
+
+#capa-fluminense
+{
+
+    height: 35.5vw;
+    
+}
+
+/* Tratamento telas superiores a 1024px até 2000px */
+
+@media (min-width: 1368px) and (max-width: 2000px)
+{
+
+    #div-text1 
+    {
+
+        margin-top: 50%;
+
+    }
+
+    /* Filtro para escurecer a imagem e proteger o texto */
+
+    #title-box1
+    {
+
+        background-color: rgba(0, 0, 0, 0.411);
+        height: 100%;
+
+    }
+
+    #texto1 
+    {
+
+        font-size: 1.8rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #texto2
+    {
+
+        font-size: 1.2rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    /* Tratamento do quadro superior e inferior direito */
+
+    #texto3, #texto5
+    {
+
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #texto4, #texto6
+    {
+
+        font-size: 0.95rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #div-text2, #div-text3
+    {
+
+        margin-top: 10%;
+        margin-left: -3%;
+
+    }
+
+    .card-image:hover
+    {
+
+        -webkit-transform: scale(1.02);
+
+    }
+
+}
+
+/* Tratamento de telas de 1025px até 1367px */
+
+@media (min-width: 1025px) and (max-width: 1367px)
+{
+
+    #div-text1 
+    {
+
+        margin-top: 45%;
+
+    }
+
+    /* Filtro para escurecer a imagem e proteger o texto */
+
+    #title-box1
+    {
+
+        background-color: rgba(0, 0, 0, 0.411);
+        height: 100%;
+
+    }
+
+    #texto1 
+    {
+
+        font-size: 1.6rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #texto2
+    {
+
+        font-size: 1rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    /* Tratamento do quadro superior e inferior direito */
+
+    #texto3, #texto5
+    {
+
+        font-size: 1.35rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #texto4, #texto6
+    {
+
+        font-size: 0.9rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #div-text2, #div-text3
+    {
+
+        margin-top: 2%;
+        margin-left: -3%;
+
+    }
+
+    .card-image:hover
+    {
+
+        -webkit-transform: scale(1.02);
+
+    }
+
+}
+
+/* Tratamento para telas de 868px até 1024px */
+
+@media (min-width: 868px) and (max-width: 1024px)
+{
+
+    #div-text1 
+    {
+
+        margin-top: 30%;
+
+    }
+
+    /* Filtro para escurecer a imagem e proteger o texto */
+
+    #title-box1
+    {
+
+        background-color: rgba(0, 0, 0, 0.411);
+        height: 100%;
+
+    }
+
+    #texto1 
+    {
+
+        font-size: 1.6rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #texto2
+    {
+
+        font-size: 1rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    /* Tratamento do quadro superior e inferior direito */
+
+    #texto3, #texto5
+    {
+
+        font-size: 1rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #texto4, #texto6
+    {
+
+        font-size: 0.7rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #div-text2, #div-text3
+    {
+
+        margin-top: -10%;
+        margin-left: -3%;
+
+    }
+
+    .card-image:hover
+    {
+
+        -webkit-transform: scale(1.02);
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 867px)
+{
+
+    #title-box1
+    {
+
+        background-color: rgba(0, 0, 0, 0.411);
+        height: 100%;
+
+    }
+
+    #div-text1 
+    {
+
+        margin-top: 8%;
+
+    }
+
+    #div-text2, #div-text3
+    {
+
+        margin-top: 30%;
+        margin-left: -3%;
+
+    }
+
+    #texto1 
+    {
+
+        font-size: 1.8rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #texto2
+    {
+
+        font-size: 1.2rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    /* Tratamento do quadro superior e inferior direito */
+
+    #texto3, #texto5
+    {
+
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #texto4, #texto6
+    {
+
+        font-size: 0.95rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+}
+
+@media (max-width: 767px)
+{
+
+    #div-text1 
+    {
+
+        margin-top: -10%;
+
+    }
+
+    /* Filtro para escurecer a imagem e proteger o texto */
+
+    #title-box1
+    {
+
+        background-color: rgba(0, 0, 0, 0.411);
+        height: 100%;
+
+    }
+
+    #texto1 
+    {
+
+        font-size: 1rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #texto2
+    {
+
+        font-size: 0.7rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    /* Tratamento do quadro superior e inferior direito */
+
+    #texto3, #texto5
+    {
+
+        font-size: 1rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #texto4, #texto6
+    {
+
+        font-size: 0.7rem;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.513);
+
+    }
+
+    #div-text2, #div-text3
+    {
+
+        margin-top: 5%;
+        margin-left: -3%;
+
+    }
+
+}
