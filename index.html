@@ -11,12 +11,16 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+    <!--
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="mobile.css">
+    -->
 
-    <!--Ícone Facebook importado do fontawesome-->
-    <i class="fab fa-facebook-f"></i>  
+    <link rel="stylesheet" href="style2.css">
 
+    <!-- Ícone Facebook importado do fontawesome
+     <i class="fab fa-facebook-f"></i>  
+    -->
     <!-- CSS Original -->
 
     <!--
@@ -25,9 +29,124 @@
     <i class="fas fa-search" id="search"></i>
     -->
 
-    <title>Anthony Esportes</title>
+    <title>Angulo - Todo Jogo Importa</title>
 </head>
-<body>
+<body>        
+      
+    <!-- Dropdown Structure 
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">A Angulo</a></li>
+        <li><a href="#!">AnguloApp</a></li>
+        <li class="divider"></li>
+        <li class="testando"><a href="#!">Ligas Nacionais</a>
+        
+            <ul>
+
+            
+                <li><a href="#">Teste</a></li>
+    
+            </ul>
+        
+        </li>        
+        
+    </ul>
+    -->
+
+    <nav>
+        <!--
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Angulo</a>          
+          </a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            
+             Dropdown Trigger 
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">menu</i></a></li>
+            
+          </ul>         
+
+        </div> 
+        -->    
+        
+        <ul class="menu">
+            <li class="teste"><a href="index.html">Home</a></li>
+            <li><a href="#">menu</a>
+            
+                <ul>
+
+                    <li><a href="#">A Angulo</a></li>
+                    <li><a href="#">AnguloApp</a></li>
+                    <!--Sub-menu: Ligas Nacionais-->
+                    <li class="ligasNacionais"><a href="#">Ligas Nacionais</a>
+
+                        <li>
+                             <li><a href="#">Angulo Liga Brasil de Basquete</a></li>
+                             <li><a href="#">Angulo Liga Brasil de Futsal</a></li>
+                             <li><a href="#">Angulo Liga Brasil de Futebol de 7</a></li>
+                             <li><a href="#">Angulo liga Brasil de Vôlei</a></li>
+                             <li><a href="#">Angulo liga Brasil Intercolegial</a></li>
+                        </li>
+
+                    </li>
+
+                </ul>             
+
+            </li>            
+
+                <!--
+                
+                
+            <li><a href="#">Ligas Estaduais</a>
+            
+                <li><a href="#">Angulo Liga Rio de Basquete</a>
+                
+                    <ul>
+
+                        <li><a href="#">RJ</a></li>
+                        <li><a href="#">Sub-15</a></li>
+                        <li><a href="#">Sub-17</a></li>
+                        <li><a href="#">Sub-19</a></li>
+                        <li><a href="#">Adulto</a></li>
+
+                    </ul>
+
+                </li>
+
+                <li><a href="#">Angulo Liga Rio de Janeiro de Futsal</a>
+                
+                    <ul>
+
+                        <ul><a href="#">RJ</a>
+                            <ul><a href="#">Promessas</a>
+                                <li><a href="#">Sub-7</a></li>
+                                <li><a href="#">Sub-9</a></li>
+                                <li><a href="#">Sub-11</a></li>
+                                <li><a href="#">Sub-13</a></li>
+                                <li><a href="#">Sub-15</a></li>
+                                <li><a href="#">Sub-17</a></li>
+                            </ul>
+
+                            <ul><a href="#">Elite</a>
+
+                                <li><a href="#">Sub-7</a></li>
+                                <li><a href="#">Sub-9</a></li>
+                                <li><a href="#">Sub-11</a></li>
+                                <li><a href="#">Sub-13</a></li>
+
+                            </ul>
+
+                        </ul>
+                    </ul>
+
+                </li>
+
+            </li>
+            <li><a href="#">Contato</a></li>
+
+            -->
+    </ul>
+
+    </nav>    
+
 
     <div class="container">
    
@@ -47,17 +166,28 @@
 
     </div>
     
+    <!-- Todos os ícones que surgirem da página -->
+    <script src="https://kit.fontawesome.com/47b1ae1cd8.js" crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+       
 
-   
+    <script>
 
-    <!-- Todos os ícones que surgirem da página -->
-    <script src="https://kit.fontawesome.com/47b1ae1cd8.js" crossorigin="anonymous"></script>   
+        //Menu Mobile    
+                
 
+        $(document).ready(function(){
+            $(".dropdown-trigger").dropdown();    
+            
+        });
+
+    </script>
     
 </body>
 </html>
