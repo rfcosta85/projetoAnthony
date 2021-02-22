@@ -78,11 +78,15 @@ html
     
 }
 
-.box-shadown 
-{
-    box-shadow: none;
-}
+.box-shadow { box-shadow: none; }
 
+.hover-effect:hover
+    {
+
+        -webkit-transform: scale(1.02);
+        cursor: pointer;
+
+    }
 
 /* Tratamento telas superiores a 1024px até 2000px */
 
@@ -152,12 +156,7 @@ html
 
     }
 
-    .card-image:hover
-    {
-
-        -webkit-transform: scale(1.02);
-
-    }
+    
 
 }
 
@@ -228,14 +227,7 @@ html
         margin-left: -3%;
 
     }
-
-    .card-image:hover
-    {
-
-        -webkit-transform: scale(1.02);
-
-    }
-
+    
 }
 
 /* Tratamento para telas de 868px até 1024px */
@@ -304,14 +296,7 @@ html
         margin-top: -10%;
         margin-left: -3%;
 
-    }
-
-    .card-image:hover
-    {
-
-        -webkit-transform: scale(1.02);
-
-    }
+    }    
 
 }
 
