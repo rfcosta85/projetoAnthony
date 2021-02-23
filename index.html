@@ -1,193 +1,168 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angulo - Todo Jogo Importa</title>
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 
-    <!--
-    <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet" href="mobile.css">
-    -->
-
-    <link rel="stylesheet" href="style2.css">
-
-    <!-- Ícone Facebook importado do fontawesome
-     <i class="fab fa-facebook-f"></i>  
-    -->
-    <!-- CSS Original -->
-
-    <!--
-    <link rel="stylesheet" href="desktop.css">
-    <link rel="stylesheet" href="mobile.css">
-    <i class="fas fa-search" id="search"></i>
-    -->
-
-    <title>Angulo - Todo Jogo Importa</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
-<body>        
-      
-    <!-- Dropdown Structure 
-    <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#!">A Angulo</a></li>
-        <li><a href="#!">AnguloApp</a></li>
-        <li class="divider"></li>
-        <li class="testando"><a href="#!">Ligas Nacionais</a>
-        
-            <ul>
-
-            
-                <li><a href="#">Teste</a></li>
+<body>
     
-            </ul>
-        
-        </li>        
-        
-    </ul>
-    -->
+    <header>        
 
-    <nav>
-        <!--
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo center">Angulo</a>          
-          </a>
-          <ul id="nav-mobile" class="left hide-on-med-and-down">
-            
-             Dropdown Trigger 
-            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">menu</i></a></li>
-            
-          </ul>         
+        <nav>
 
-        </div> 
-        -->    
-        
-        <ul class="menu">
-            <li class="teste"><a href="index.html">Home</a></li>
-            <li><a href="#">menu</a>
-            
-                <ul>
+            <div class="nav-wrapper container">
 
-                    <li><a href="#">A Angulo</a></li>
-                    <li><a href="#">AnguloApp</a></li>
-                    <!--Sub-menu: Ligas Nacionais-->
-                    <li class="ligasNacionais"><a href="#">Ligas Nacionais</a>
+                <a href="#" class="brand-logo center">Angulo</a>
 
-                        <li>
-                             <li><a href="#">Angulo Liga Brasil de Basquete</a></li>
-                             <li><a href="#">Angulo Liga Brasil de Futsal</a></li>
-                             <li><a href="#">Angulo Liga Brasil de Futebol de 7</a></li>
-                             <li><a href="#">Angulo liga Brasil de Vôlei</a></li>
-                             <li><a href="#">Angulo liga Brasil Intercolegial</a></li>
-                        </li>
+                <ul id="slide-out" class="side-nav">                    
+                
+                 <li><a class="waves-effect" href="#">Home</a></li>
+                 <li><div class="divider"></div></li>
+                 <li><a href="#">A Angulo</a></li>
+                 <li><a href="#">AnguloApp</a></li>
+
+                 <!-- Dropdown Ligas Nacionais -->
+                
+                    <li class="no-padding">
+                        <ul class="collapsible collapsible-accordion">
+
+                            <li>
+
+                                <a class="collapsible-header">Ligas Nacionais</a>
+                                <div class="collapsible-body">
+
+                                    <ul>
+
+                                       <li><a href="#">Angulo Liga Brasil de Basquete</a></li>
+                                       <li><a href="#">Angulo Liga Brasil de Futsal</a></li>
+                                       <li><a href="#">Angulo Liga Brasil de Futebol de 7</a></li>
+                                       <li><a href="#">Angulo liga Brasil de Vôlei</a></li>
+                                       <li><a href="#">Angulo liga Brasil Intercolegial</a></li>
+
+                                    </ul>
+                                 
+                                </div>
+
+                            </li>
+                         
+                        </ul>
 
                     </li>
 
-                </ul>             
+                    <!-- Dropdown Ligas Estaduais -->
 
-            </li>            
+                    <li class="no-padding">
+                        <ul class="collapsible collapsible-accordion">
 
-                <!--
+                            <li>
+
+                                <a class="collapsible-header">Ligas Estaduais</a>
+                                <div class="collapsible-body">
+
+                                    <ul>
+                                        
+                                        <!--Dropdown sub-ligas Estaduais-->
+
+                                       <li class="no-padding">
+                                            <ul class="collapsible collapsible-accordion">
                 
+                                                <li>
                 
-            <li><a href="#">Ligas Estaduais</a>
-            
-                <li><a href="#">Angulo Liga Rio de Basquete</a>
+                                                    <a class="collapsible-header">Angulo Liga Rio de Basquete</a>
+                                                    <div class="collapsible-body">
                 
-                    <ul>
-
-                        <li><a href="#">RJ</a></li>
-                        <li><a href="#">Sub-15</a></li>
-                        <li><a href="#">Sub-17</a></li>
-                        <li><a href="#">Sub-19</a></li>
-                        <li><a href="#">Adulto</a></li>
-
-                    </ul>
-
-                </li>
-
-                <li><a href="#">Angulo Liga Rio de Janeiro de Futsal</a>
+                                                        <ul>
                 
-                    <ul>
+                                                            <li><a href="#">RJ</a></li>
+                                                            <li><a href="#">Sub-15</a></li>
+                                                            <li><a href="#">Sub-17</a></li>
+                                                            <li><a href="#">Sub-19</a></li>
+                                                            <li><a href="#">Adulto</a></li>             
+                
+                                                        </ul>
+                                                 
+                                                    </div>
+                
+                                                </li>
+                                         
+                                            </ul>
+                
+                                        </li>
+                                        
+                                        <!-- Dropdown Liga Rio de Janeiro de Futsal-->
 
-                        <ul><a href="#">RJ</a>
-                            <ul><a href="#">Promessas</a>
-                                <li><a href="#">Sub-7</a></li>
-                                <li><a href="#">Sub-9</a></li>
-                                <li><a href="#">Sub-11</a></li>
-                                <li><a href="#">Sub-13</a></li>
-                                <li><a href="#">Sub-15</a></li>
-                                <li><a href="#">Sub-17</a></li>
-                            </ul>
+                                        <li class="no-padding">
+                                            <ul class="collapsible collapsible-accordion">
+                
+                                                <li>
+                
+                                                    <a class="collapsible-header">Angulo Liga Rio de Futsal</a>
+                                                    <div class="collapsible-body">
+                
+                                                        <ul>
+                
+                                                            <li><a href="#">RJ</a></li>
+                                                            <li><a href="#">Promessas</a></li>
+                                                            <li><a href="#">Sub-7</a></li>
+                                                            <li><a href="#">Sub-19</a></li>
+                                                            <li><a href="#">Sub-11</a></li>
+                                                            <li><a href="#">Sub-13</a></li>
+                                                            <li><a href="#">Sub-15</a></li>
+                                                            <li><a href="#">Sub-17</a></li>             
+                
+                                                        </ul>
+                                                 
+                                                    </div>
+                
+                                                </li>
+                                         
+                                            </ul>
+                
+                                        </li>                                      
 
-                            <ul><a href="#">Elite</a>
 
-                                <li><a href="#">Sub-7</a></li>
-                                <li><a href="#">Sub-9</a></li>
-                                <li><a href="#">Sub-11</a></li>
-                                <li><a href="#">Sub-13</a></li>
+                                    </ul>
+                                 
+                                </div>
 
-                            </ul>
-
+                            </li>
+                         
                         </ul>
-                    </ul>
 
-                </li>
+                    </li>
 
-            </li>
-            <li><a href="#">Contato</a></li>
+                    <!-- Dropdown -->
+             
+                </ul>
+            
+                <a class="sidenav" data-activates="slide-out"><i class="material-icons">menu</i></a>
 
-            -->
-    </ul>
+            </div>
 
-    </nav>    
+        </nav>
 
-
-    <div class="container">
-   
-   
-    <!-- Principal -->
-
-    <div class="container"></div>    
-
-    <!-- Notícias menores -->
-
-    <div class="container"></div>
-
-    <!-- Footer -->
-
-    <div class="container"></div>
-  
-
-    </div>
+    </header>
     
-    <!-- Todos os ícones que surgirem da página -->
-    <script src="https://kit.fontawesome.com/47b1ae1cd8.js" crossorigin="anonymous"></script>
-
-    <!-- Jquery -->
-
+    <!--JQUERY-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-       
+    <!--Materialize JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 
     <script>
-
-        //Menu Mobile    
-                
-
         $(document).ready(function(){
-            $(".dropdown-trigger").dropdown();    
-            
+            $(".sidenav").sideNav()
         });
-
     </script>
-    
+
 </body>
 </html>
