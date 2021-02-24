@@ -44,12 +44,27 @@ h3, h5
 
 .row {margin-top: 10%; }
 
-.card-title 
+.row-titles
 { 
     
     color: green;
     font-weight: bolder;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.109); 
+    font-size: 1.1em;
+    margin-top: 0%;
+
 }
 
+.row-subtitles { font-size: 1.08em; }
 
+.more-news 
+{
+
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bolder;
+    background-color: blue;
+    color: white; 
+    margin-top: 2%; 
+    margin-bottom: 3%;  
+}

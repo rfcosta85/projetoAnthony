@@ -17,6 +17,10 @@
 
     }
 
-    
+    .row-titles { font-size: 0.45em;}
+
+    .row-subtitles { display: none; }
+
+    .more-news { font-size: 1.3em; }
 
 }
