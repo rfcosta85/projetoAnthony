@@ -1,2 +1,16 @@
 nav { background-color: green; } 
+
 .material-icons:hover { cursor: pointer; }
+
+.slider { margin-top: 10%;}
+
+h3, h5 
+{ 
+   
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.637); 
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 2%;
+
+}
+
+img { padding-top: 45%; }
