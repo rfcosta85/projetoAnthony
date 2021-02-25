@@ -18,7 +18,7 @@ nav
 
 .material-icons:hover { cursor: pointer; }
 
-.side-nav { width: 20%}
+.waves-effect { padding-bottom: 2%; }
 
 .slider 
 { 
@@ -56,9 +56,11 @@ h3, h5
 
 .contato { color: red; font-weight: bolder;}
 
-.testando { background-color: var(--visual-identity-color); }
+.ligas { background-color: var(--visual-identity-color); }
 
-.bola { color: white}
+.texto-ligas { color: white}
+
+.texto-ligas:hover { text-transform: uppercase; color: rgba(255, 0, 0, 0.753);}
 
 .col { margin-top: 7%; }
 
@@ -96,7 +98,9 @@ h3, h5
 
     .side-nav li:hover{ background-color: var(--visual-identity-color); }
     
-    .side-nav a:hover { color: white; }
+    .side-nav a:hover { color: white; }   
+
+    .side-nav { width: 25%}
 
 }
 
