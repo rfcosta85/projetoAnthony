@@ -1,6 +1,6 @@
 @media (max-width: 767px)
 {
-
+       
     .slider h3 
     { 
 
@@ -21,6 +21,6 @@
 
     .row-subtitles { display: none; }
 
-    .more-news { font-size: 1.3em; }
+    .more-news { font-size: 1em; }
 
 }
