@@ -91,6 +91,21 @@ h3, h5
     margin-bottom: 3%;  
 }
 
+/* Estilização Página Associação Brasileira de Esportes */
+
+.associacao-title 
+{ 
+    
+    font-size: 2.2em; 
+    font-weight: bolder;
+    color: var(--visual-identity-color);
+
+}
+
+.associacao-content { font-size: 1.3em; }
+
+.associacao-container { margin-top: 2%; }
+
 @media (min-width: 780px)
 {
 
