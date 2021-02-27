@@ -43,6 +43,9 @@ nav
 
 }
 
+.slider .indicators .indicator-item.active {
+    background-color: #51A9F0;
+}
 h3, h5 
 { 
    
