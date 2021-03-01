@@ -78,7 +78,7 @@ h3, h5
 
 .ligas { background-color: var(--visual-identity-color-light); }
 
-.texto-ligas { color: white}
+.texto-ligas { color: white; font-weight: bold;}
 
 .texto-ligas:hover { text-transform: uppercase; color: rgba(255, 0, 0, 0.753);}
 
