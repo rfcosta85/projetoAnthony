@@ -21,14 +21,17 @@ nav
 
 }
 
-.logo-svg { height: 60px;  padding-top: 1%;}
+.logo-svg { height: 60px; }
+.logo-svg-teste { height: 50px; }
+
+
 
 .busca 
 { 
     
     background-color:  rgba(128, 128, 128, 0.158);
     width: 20%;
-    margin-top: 1.2%;
+    /*margin-top: 1.2%;*/
     border-radius: 10%;
     
 }
