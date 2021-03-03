@@ -22,7 +22,7 @@ nav
 }
 
 .logo-svg { height: 60px; }
-.logo-svg-teste { height: 50px; }
+.logo-svg-teste { height: 90px; margin: 1%; }
 
 
 
@@ -44,9 +44,11 @@ nav
 { 
     
     margin: auto; 
-    margin-top: 6%;  
+    margin-top: 8%;  
     
 }
+
+.logo-slider { margin-top:  1%; }
 
 .slider h3 
 { 
