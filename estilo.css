@@ -16,7 +16,7 @@
 nav 
 { 
     
-    background-color: var(--visual-identity-color-light); 
+    background-color: var(--visual-identity-color); 
     height: 9.3vh;
 
 }
@@ -79,7 +79,7 @@ h3, h5
 
 .contato { color: red; font-weight: bolder;}
 
-.ligas { background-color: var(--visual-identity-color-light); }
+.ligas { background-color: var(--visual-identity-color); }
 
 .texto-ligas { color: white; font-weight: bold;}
 
@@ -108,7 +108,7 @@ h3, h5
     text-align: center;
     font-size: 1.5em;
     font-weight: bolder;
-    background-color: var(--visual-identity-color-light);
+    background-color: var(--visual-identity-color);
     color: white; 
     margin-top: 2%; 
     margin-bottom: 3%;  
