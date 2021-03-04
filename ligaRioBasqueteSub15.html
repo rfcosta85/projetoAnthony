@@ -30,12 +30,12 @@
 
             <div class="nav-wrapper container valign-wrapper">                
 
-                <a href="#" class="brand-logo center"><p class="page-name">Liga Rio de Basquete <span class="league-category">sub-15</span></p></a>    
+                <a href="#" class="brand-logo center"><p class="page-name truncate">Liga Rio de Basquete <span class="league-category">sub-15</span></p></a>    
                 
                 <a href="#" class="brand-logo right material-icons busca">search</a>
 
                 <ul id="slide-out" class="side-nav">
-
+                    
                     <li><a class="waves-effect" href="index.html"><p class="menu-words">Home</p></a></li>
                     <li>
                         <div class="divider"></div>
@@ -354,11 +354,21 @@
 
                 </ul>
 
-                <a class="sidenav" data-activates="slide-out"><i class="material-icons">menu</i></a>
+                <a class="sidenav" data-activates="slide-out"><i class="material-icons">menu</i></a> 
+                
+                <!-- Dropdown Trigger -->
+                <a class='dropdown-button btn' data-belowOrigin="true" href='#' data-activates='dropdown1'>Afiliados</a>
+                        
+                <!-- Dropdown Structure -->
+                <ul id='dropdown1' class='dropdown-content'>
+                  <li>
+                        <img class="clubes-afiliados" src="JuventusRIo.jpeg" alt="">
+                        <img src="LOGO  SEB 2.png" alt="" class="clubes-afiliados">
+                        <img src="Mesquita.jpeg" alt="" class="clubes-afiliados">
+                    </li>
+                </ul>
 
-            </div>
-
-            
+            </div>          
 
         </nav>
 
@@ -600,8 +610,21 @@
                 height: 450,
                 interval: 7500
             });
-
         });
+    </script>
+
+    <script>
+    
+        $('.dropdown-button').dropdown({
+            inDuration: 300,
+            outDuration: 225,
+            constrainWidth: false,
+            hover: false,
+            gutter: 0,            
+            alignment: 'left',
+            stopPropagation: false
+        })
+
     </script>
 
 </body>

@@ -1,63 +1,67 @@
-*{ 
-    
+* {
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+
 }
 
-:root 
-{ 
-    
-    --visual-identity-color: #51A9F0; 
+:root {
+
+    --visual-identity-color: #51A9F0;
 
     --visual-identity-color-light: #51a8f077
-
 }
 
-nav 
-{ 
-    
-    background-color: var(--visual-identity-color); 
+nav {
+
+    background-color: var(--visual-identity-color);
     height: 9.3vh;
 
 }
 
-.logo-svg { height: 60px; }
-.logo-svg-teste { height: 90px; margin: 1%; }
+.logo-svg {
+    height: 60px;
+}
+
+.logo-svg-teste {
+    height: 90px;
+    margin: 1%;
+}
 
 
-.busca 
-{ 
-    
-    background-color:  rgba(128, 128, 128, 0.158);
+.busca {
+
+    background-color: rgba(128, 128, 128, 0.158);
     width: 20%;
     /*margin-top: 1.2%;*/
     border-radius: 10%;
-    
+
 }
 
-.material-icons:hover { cursor: pointer; }
-
-.waves-effect { padding-bottom: 2%; }
-
-.slider 
-{ 
-    
-    margin: auto; 
-    margin-top: 8%;  
-    
+.material-icons:hover {
+    cursor: pointer;
 }
 
-.slider h3 
-{ 
-    
-    font-size: 2.2em; 
+.waves-effect {
+    padding-bottom: 2%;
+}
+
+.slider {
+
+    margin: auto;
+    margin-top: 8%;
+
+}
+
+.slider h3 {
+
+    font-size: 2.2em;
     font-weight: bolder;
 
 }
-.slider h5 
-{ 
-    
-    font-size: 1.4em; 
+
+.slider h5 {
+
+    font-size: 1.4em;
     font-weight: bolder;
 
 }
@@ -65,79 +69,140 @@ nav
 .slider .indicators .indicator-item.active {
     background-color: #51A9F0;
 }
-h3, h5 
-{ 
-   
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.664); 
+
+h3,
+h5 {
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.664);
     background-color: rgba(0, 0, 0, 0.37);
     border-radius: 2%;
 
 }
 
-.menu-words { font-size: 1.2em; }
+.menu-words {
+    font-size: 1.2em;
+}
 
-.contato { color: red; font-weight: bolder;}
+.contato {
+    color: red;
+    font-weight: bolder;
+}
 
-.ligas { background-color: var(--visual-identity-color); }
+.ligas {
+    background-color: var(--visual-identity-color);
+}
 
-.texto-ligas { color: white; font-weight: bold;}
+.texto-ligas {
+    color: white;
+    font-weight: bold;
+}
 
-.texto-ligas:hover { text-transform: uppercase; color: rgba(255, 0, 0, 0.753);}
+.texto-ligas:hover {
+    text-transform: uppercase;
+    color: rgba(255, 0, 0, 0.753);
+}
 
-.col { margin-top: 7%; }
+.col {
+    margin-top: 7%;
+}
 
-.row {margin-top: 10%; }
+.row {
+    margin-top: 10%;
+}
 
-.row-titles
-{ 
-    
+.row-titles {
+
     color: var(--visual-identity-color);
     font-weight: bolder;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.109); 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.109);
     font-size: 1.1em;
     margin-top: 0%;
 
 }
 
-.row-subtitles { font-size: 1.08em; }
+.row-subtitles {
+    font-size: 1.08em;
+}
 
-.more-news 
-{
+.more-news {
 
     text-align: center;
     font-size: 1.5em;
     font-weight: bolder;
     background-color: var(--visual-identity-color);
-    color: white; 
-    margin-top: 2%; 
-    margin-bottom: 3%;  
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.afiliates {
+    padding-left: 90%;
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color:var(--visual-identity-color);
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+     box-shadow: none; 
+}
+
+.btn:hover {
+
+    background-color:var(--visual-identity-color);
+    box-shadow: none;
+}
+
+.dropdown1.active, .btn.active {
+    background-color: var(--visual-identity-color);
+}
+
+.clubes-afiliados {
+    height: 40px;
 }
 
 /* Estilização Página Associação Brasileira de Esportes */
 
-.associacao-title 
-{ 
-    
-    font-size: 2.2em; 
+.associacao-title {
+
+    font-size: 2.2em;
     font-weight: bolder;
     color: var(--visual-identity-color);
 
 }
 
-.associacao-content { font-size: 1.3em; }
-
-.associacao-container { margin-top: 2%; }
-
-@media (min-width: 780px)
-{
-
-    li:hover, .card-content:hover { cursor: pointer; }
-
-    .side-nav li:hover{ background-color: var(--visual-identity-color); }
-    
-    .side-nav a:hover { color: white; }   
-
-    .side-nav { width: 25%}
-
+.associacao-content {
+    font-size: 1.3em;
 }
 
+.associacao-container {
+    margin-top: 2%;
+}
+
+@media (min-width: 780px) {
+
+    li:hover,
+    .card-content:hover {
+        cursor: pointer;
+    }
+
+    .side-nav li:hover {
+        background-color: var(--visual-identity-color);
+    }
+
+    .side-nav a:hover {
+        color: white;
+    }
+
+    .side-nav {
+        width: 25%
+    }
+
+}
