@@ -33,6 +33,23 @@
 
     .page-name { font-size: 0.6em; }
 
-    .league-category { font-size: 0.6em;}
+    .league-category { font-size: 0.6em;}    
+
+    .input-field {
+        right: 0.5rem;
+        left: 70%;
+        width: 10%;               
+    }
+   
+
+    nav .input-field label i {
+        color: white;
+        transition: color 0.3s ease 0s;
+        
+    } 
+    
+    .lupa {
+        margin-top: -25%;
+    }
 
 }

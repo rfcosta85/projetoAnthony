@@ -37,6 +37,27 @@ nav {
 
 }
 
+.input-field {
+    right: 0.5rem;
+    left: 80%;
+    width: 20%;         
+}
+
+
+
+nav .input-field label i {
+    color: white;
+    transition: color 0.3s ease 0s;
+    
+}
+
+/*
+
+#search { 
+    height: 50%;
+    margin: auto;
+}
+*/
 .material-icons:hover {
     cursor: pointer;
 }
