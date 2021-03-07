@@ -18,6 +18,12 @@ nav {
 
 }
 
+.category {
+    color: var(--visual-identity-color);
+    font-size: 2em;
+    margin-top: 1%;    
+}
+
 .logo-svg {
     height: 60px;
 }
@@ -73,7 +79,7 @@ nav .input-field label i {
 .slider {
 
     margin: auto;
-    margin-top: 8%;
+    margin-top: 5%;
 
 }
 
