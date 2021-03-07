@@ -33,7 +33,9 @@
 
     .page-name { font-size: 0.6em; }
 
-    .league-category { font-size: 0.6em;}    
+    .league-category { font-size: 0.6em;}  
+    
+    /*
 
     .input-field {
         right: 0.5rem;
@@ -52,4 +54,20 @@
         margin-top: -25%;
     }
 
+    */
+
+    .buscador {
+        left: 65%;
+        width: 30%;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width: 868px) {
+    .buscador {
+        left: 75%;
+        width: 25%;
+        margin-bottom: 1.5%;
+    }
 }

@@ -36,7 +36,7 @@ nav {
     border-radius: 10%;
 
 }
-
+/*
 .input-field {
     right: 0.5rem;
     left: 80%;
@@ -51,13 +51,17 @@ nav .input-field label i {
     
 }
 
-/*
-
 #search { 
     height: 50%;
     margin: auto;
 }
 */
+
+.buscador {
+    left: 90%; 
+    margin-top: 0.5%;   
+}
+
 .material-icons:hover {
     cursor: pointer;
 }
@@ -241,6 +245,6 @@ h5 {
 
     .side-nav {
         width: 25%
-    }
-
+    }    
+    
 }
