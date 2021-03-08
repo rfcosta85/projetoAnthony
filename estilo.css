@@ -128,9 +128,20 @@ h5 {
     font-weight: bold;
 }
 
+
 .texto-ligas:hover {
     text-transform: uppercase;
     color: rgba(255, 0, 0, 0.753);
+}
+
+.texto-estados-ligas {
+    
+    font-weight: bolder;
+}
+
+.texto-estados-ligas:hover {
+    
+    color: white;
 }
 
 .col {
