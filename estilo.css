@@ -249,6 +249,53 @@ h5 {
     margin-top: 2%;
 }
 
+/* Estilização página do usuário */
+
+
+.main-user {
+    margin-top: -10%;
+}
+
+.user-page {
+    background-color:var(--visual-identity-color);
+    height: 100vh;
+    margin-top: 0.1%;
+    
+}
+
+.user-page2 {    
+    height: 100vh;
+    margin-top: 0.1%;
+    
+}
+
+.logo-user {
+    width: 80%;    
+}
+
+.side-user-page{
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.13);
+    font-size: 2em;
+    text-align: center;
+}
+
+.link-user { 
+    color: white;
+    
+}
+
+.link-user:hover {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.text-link-user { 
+    text-align: center;
+}
+
 @media (min-width: 780px) {
 
     li:hover,
