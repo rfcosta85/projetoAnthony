@@ -4,6 +4,10 @@
     .slider {
         margin-top: -2%;
     }
+
+    .slider-without-category {
+        margin-top: 8%;
+    }
     
     .slider h3 
     { 
@@ -68,7 +72,7 @@
     .buscador {
         left: 70%;
         width: 30%;
-        margin-bottom: 5%;
+        margin-bottom: 3.5%;
     }
 
 }
