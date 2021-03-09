@@ -76,6 +76,39 @@
         
     }
 
+   /* Estilização página do usuário */
+
+   .user-page, .user-page2 {
+       height: 90vh;
+   }
+
+   .logo-user {
+       width: 60%;
+   }
+
+   .title-user-page {
+       font-size: 2em;
+   }
+
+   .post-news-user-page {
+       font-size: 1.5em;
+       padding-top: 10%;       
+   }
+
+   .insert-news { 
+       height: 50vh;
+       width: 75%;
+   }
+
+   .actions-buttons {
+       padding-top: 5%;
+   }
+
+   .action-button { 
+       height: 45%;
+       margin-top: 6%;
+   }
+
 }
 
 @media (min-width:768px) and (max-width: 868px) {
@@ -84,4 +117,15 @@
         width: 25%;
         margin-bottom: 1.5%;
     }
+
+    /* Estilização página do usuário */
+
+    .insert-news {        
+        width: 95%;
+    }
+
+    .action-button {
+        height: 45%;
+    }
+
 }

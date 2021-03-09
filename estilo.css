@@ -266,6 +266,7 @@ h5 {
 .user-page2 {    
     height: 100vh;
     margin-top: 0.1%;
+    background-image: linear-gradient(67deg,white 55%, #51a8f070);
     
 }
 
@@ -273,7 +274,7 @@ h5 {
     width: 80%;    
 }
 
-.side-user-page{
+.side-user-page, .post-news-user-page{
     color: white;
     font-weight: bolder;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.13);
@@ -296,6 +297,44 @@ h5 {
     text-align: center;
 }
 
+.title-user-page {
+    color: var(--visual-identity-color);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.insert-news {
+    background-color: var(--visual-identity-color);
+    height: 40vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.post-news-user-page {
+    padding-top: 3%;
+}
+
+.actions-buttons {
+    margin-top: 10%;
+    
+}
+
+.action-button { 
+    margin-left: 2%;
+    height: 50px;
+    border-radius: 10px;
+    color:var(--visual-identity-color);
+    font-weight: bolder;
+    
+}
+
+.action-button:hover {
+    -webkit-transform: scale(1.02);
+    color: red;
+}
+
+
 @media (min-width: 780px) {
 
     li:hover,
@@ -315,4 +354,5 @@ h5 {
         width: 35%
     }    
     
+
 }
