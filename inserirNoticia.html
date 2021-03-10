@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="LogoAngulo.jpg" type="image/x-icon">
+    <title>Angulo-Todo Jogo Importa</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- Small Screens CSS -->
+    <link rel="stylesheet" href="smallScreens.css">
+</head>
+<body> 
+
+    <!--
+    <header>
+
+        <nav class="z-depth">
+
+            <a href="#" class="brand-logo center"><img class="logo-svg valign-wrapper" src="logo-angulo-soLeao.png" frameborder="0"></img></a>
+
+        </nav>
+
+    </header>
+
+    -->
+
+    <main>        
+
+        <div class="main-user">
+
+            <div class="row">               
+
+                <div class="col s12 m3 l2 user-page">           
+                    
+    
+                    <h1 class="side-user-page"> <img class="logo-user" src="logo-angulo-soLeao.png" alt=""><h1 class="side-user-page">Olá Usuário</h1></h1>
+
+                    <ul>
+                        <div class="divider"></div>
+                        <li><a href="index.html" class="link-user"><p class="text-link-user">Ir para o site</p></a></li>
+                        <div class="divider"></div>
+                        <li><a href="index.html" class="link-user"><p class="text-link-user">Suas Publicações</p></a></li>
+                        <div class="divider"></div>
+                        <li><a href="#" class="link-user"><p class="text-link-user">Entrar em contato</p></a></li>
+                        <div class="divider"></div>
+
+                    </ul>
+                    
+                </div>              
+                
+                <div class="col s12 m9 l10 user-page2 news-portal"> 
+                    
+                    <h1 class="title-user-page center-align">Insira a sua Nova Notícia</h1>
+                    
+                    <div class="insert-news-portal">
+
+                        <div id="area">
+
+                           <form action="" id="formulario">
+
+                            <fieldset>
+
+                                <legend>Inserindo nova notícia</legend>
+                                <label>Título:</label><input type="text" class="campo-titulo"><br>
+                                <label for="">Insira um Texto</label><br><textarea class="msg" name="" id="" cols="35" rows="8"></textarea><br>
+                                <label>Insira uma Imagem: </label><input class="img-send" type="file"><br>
+                                <input type="submit" class="btn-submit" value="Enviar">
+
+                            </fieldset>
+
+                           </form>
+
+                        </div>
+
+
+                    </div>
+    
+                    
+                </div> 
+    
+            </div>
+
+        </div>         
+
+    </main>
+
+    <!-- Fontawesome -->
+
+    <script src="https://kit.fontawesome.com/47b1ae1cd8.js" crossorigin="anonymous"></script>
+
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Materialize JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".sidenav").sideNav();
+            $('.slider').slider({
+                height: 450,
+                interval: 7500
+            });
+
+        });
+    </script>
+
+
+</body>
+</html>

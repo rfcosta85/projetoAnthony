@@ -334,6 +334,39 @@ h5 {
     color: red;
 }
 
+/* Estilizando Portal de inserção de Notícias */
+
+/*
+.insert-news-portal {
+    width: 80%;
+    margin: auto;
+    margin-top: -5%;
+    height: 80vh;
+    background-color: lightgray;
+}
+*/
+.news-portal {
+    background-image: none;    
+}
+
+fieldset {
+    height: 85vh;
+}
+
+.msg {
+    height: 60vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;        
+}
+
+.img-send {
+    margin-top: 1%;
+}
+
+.btn-submit { 
+    margin-left: 85%;
+}
 
 @media (min-width: 780px) {
 

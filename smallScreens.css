@@ -82,6 +82,10 @@
        height: 90vh;
    }
 
+   .user-page2 {
+       background-image: none;
+   }
+
    .logo-user {
        width: 60%;
    }
