@@ -115,6 +115,25 @@
 
 }
 
+/* Estilizando Portal de inserção de Notícias */
+
+fieldset {
+    height: 90vh;
+}
+
+.msg {
+    height: 45vh;
+}
+
+.img-send {
+    margin-top: 2%;
+}
+
+.btn-submit {
+    margin-left: 75%;
+    margin-top: 3%;
+}
+
 @media (min-width:768px) and (max-width: 868px) {
     .buscador {
         left: 75%;
