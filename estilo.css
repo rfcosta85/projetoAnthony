@@ -354,14 +354,14 @@ fieldset {
 }
 
 .msg {
-    height: 60vh;
+    height: 50vh;
     width: 80%;
     margin-left: 10%;
     margin-top: 1%;        
 }
 
 .img-send {
-    margin-top: 1%;
+    margin-top: 1.5%;
 }
 
 .btn-submit { 
