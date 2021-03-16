@@ -113,9 +113,7 @@
        margin-top: 6%;
    }
 
-}
-
-/* Estilizando Portal de inserção de Notícias */
+   /* Estilizando Portal de inserção de Notícias */
 
 fieldset {
     height: 90vh;
@@ -132,6 +130,26 @@ fieldset {
 .btn-submit {
     margin-left: 75%;
     margin-top: 3%;
+}
+
+.login-page {
+    padding-top: 135%;
+}
+
+.user-login { 
+    width: 90%;
+    margin-left: 5%;
+}
+
+.btn-login {
+    margin-left: 30%;
+}
+
+.btn-registro {
+    margin-left: 23%;
+}
+
+
 }
 
 @media (min-width:768px) and (max-width: 868px) {
@@ -151,4 +169,7 @@ fieldset {
         height: 45%;
     }
 
+    .btn-login {
+        margin-left: 0%;
+    }
 }

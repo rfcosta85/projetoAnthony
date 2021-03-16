@@ -55,44 +55,45 @@
 
                     </ul>
                     
-                </div>              
+                </div>
+
+                <h1 class="title-user-page center-align login-page">
+                    Login / Cadastra-se
+                </h1>
                 
-                <div class="col s12 m9 l10 user-page2 news-portal"> 
-                    
-                    <h1 class="title-user-page center-align">Insira a sua Nova Notícia</h1>
+                 <div class="col user-login">
 
-                   
-                    
-                    <div class="insert-news-portal">
+                    <form class="col s12" method="post"> 
+                        
+                        <div class="input-field col s6">
 
-                        <div id="area">
-
-                           <form action="" id="formulario">
-
-                            <fieldset>
-
-                                <legend>Inserindo nova notícia</legend>
-                                <label>Título:</label><input type="text" class="campo-titulo"><br>
-                                <label for="">Insira um Texto</label><br><textarea class="msg" name="" id="valor" cols="35" rows="8"></textarea><br>
-                                <label>Insira uma Imagem: </label><input class="img-send" type="file"><br>
-                                <input type="submit" class="btn-submit" value="Enviar" id="btn">                                
-
-                            </fieldset>
-
-                           </form>
-
+                            <input data-length="40" type="text" id="nome" placeholder="Insira o seu usuário">
+                            <label for="nome">Usuário</label>                            
+                            
                         </div>
 
+                        <div class="input-field col s6">
+
+                            <input data-length="50" type="email" id="email" class="validate" placeholder="Insira o seu email">
+                            <label data-error="Email Inválido" data-success="Email Válido" for="email">Seu email</label>
+
+                        </div>
+                    </form>
+
+                    <label for="form"><input type="button" value="Enviar" class="btn btn-login"></label>
+                    <label><input type="button" value="Registrar-se" class="btn btn-registro"></label>
+
                     </div>
-    
-                    
-                </div> 
+                 </div>
+                
     
             </div>
 
         </div>         
 
     </main>
+
+
 
     <!-- Fontawesome -->
 
@@ -112,19 +113,8 @@
                 interval: 7500
             });
 
-        }); 
-        
-        function exibirMensagem()
-        {
-            var data = new Date();
-            alert('Texto enviado com sucesso!');
-        }        
-         
-        var btn = document.getElementById("btn");
- 
-        btn.addEventListener("click", exibirMensagem, testando);       
-        
-    </script>   
+        });
+    </script>
 
 
 </body>
