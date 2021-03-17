@@ -1,153 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <link rel="stylesheet" href="style.css">
-    <title>Angulo Esportes</title>
+    <title>Document</title>
 </head>
-
 <body>
+    <h1>Pegar o valor digitado utilizando JavaScript. Dica 29</h1>
+    <input type="text"  id="valor">
+    <input type="submit" onclick="capturar()" value="escreva algo">
+    <p id="valorDigitado"></p>
 
 
-    <header>
+    <script>
 
-        <nav class="#00695c teal darken-3 z-depth-0">
+        var capturando = "";
 
+        function capturar() {
+            capturando = document.getElementById('valor').value;
+            document.getElementById('valorDigitado').innerHTML = capturando;
+        }
 
-            <div class="nav-wrapper container">
-
-                <a href="#" class="brand-logo center">Angulo Esportes</a>
-                <a href="#" data-activates="menu-mobile" class="button-collapse left">
-
-                    <i class="material-icons">menu</i>
-
-                </a>
-
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
-
-                    <li><a href="#">menu</a></li>
-                    <li><a href="#">Times</a></li>
-
-                </ul>
-
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-
-                    <li><a href="#">Buscar</a></li>
-
-                </ul>
-
-
-            </div>
-
-        </nav>
-
-    </header>
-
-    <div class="container">
-
-
-
-        <!--Card Principal-->
-
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <div class="card" id="alturaDoCard">
-
-                    <div class="card-image">
-                        <img id="capa-fluminense" class="responsive-img"
-                            src="https://s2.glbimg.com/c2GbmlNIE04P2c55uw2Bs5koXN4=/131x223:2000x1382/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2017/12/05/2017-11-30t001514z_189137243_rc16cb99b4d0_rtrmadp_3_soccer-libertadores-lan-gre_0Tl4yAY.jpg"
-                            alt="Taça Libertadores">
-
-                        <span class="card-title">
-
-                            Fluminense pode carimbar vaga na Libertadores sem entrar em campo no fim de semana
-
-                            <p class="card-subtitle">Tropeço do Santos ou do Corinthians garantirá a Pré-Libertadores
-                            </p>
-
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!--Card Direito Superior-->
-
-            <div class="col s12 m12 l6">
-                <div class="card">
-
-                    <div class="card-image">
-
-                        <img class="responsive-img"
-                            src="https://s2.glbimg.com/kSeJ-3PtXXByFc7nYqX2XnrSVsc=/0x0:1280x878/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/N/A/DTDeqIQCiSAV6voAgABQ/whatsapp-image-2021-02-12-at-14.53.34.jpeg"
-                            alt="Vanderlei Luxemburgo">
-
-                        <span class="card-title">
-
-                            Turno dobrado, mais concentração e divisão de bônus: plano contra Série B
-
-                            <p class="card-subtitle2">Direção e Luxa têm conversa com o elenco,e pássaro fala em
-                                "unidade"</p>
-
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!--Card Direito Inferior-->
-
-            <div class="col s12 m12 l6">
-                <div class="card">
-
-                    <div class="card-image">
-
-                        <img class="responsive-img"
-                            src="https://s3.glbimg.com/v1/AUTH_08fb001c60b847468664307c11fa9dc9/public/2021/2/MfsV6BlIul0QNyg3NnAP.jpg"
-                            alt="Gabigol">
-
-                        <span class="card-title">
-
-                            Gabigol, 100 vezes Flamengo: atilheiro completa marca neste domingo
-
-                            <p class="card-subtitle3">
-
-                                Atacante está entre os maiores ídolos do clube; Zico e Júnior dão benção
-
-                            </p>
-
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    </script>
 </body>
-
 </html>

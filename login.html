@@ -74,8 +74,8 @@
 
                         <div class="input-field col s6">
 
-                            <input data-length="50" type="email" id="email" class="validate" placeholder="Insira o seu email">
-                            <label data-error="Email Inválido" data-success="Email Válido" for="email">Seu email</label>
+                            <input data-length="50" type="password" id="password" class="validate" placeholder="Insira o seu email">
+                            <label for="password">Digite a sua senha</label>
 
                         </div>
                     </form>
@@ -89,7 +89,7 @@
     
             </div>
 
-        </div>         
+        </div>     
 
     </main>
 
@@ -115,24 +115,36 @@
 
         });       
         
-        const verificandoLogin = document.getElementById('btn')
+       // const verificandoLogin = document.getElementById('btn')
+        //const texto = document.getElementById('nome')
+
+        var capturandoUsuario = "";
+        var capturandoSenha = "";
 
         function exibirMensagem()
         {
-            if(verificandoLogin === login) {
-                alert('Tudo bem')
-            }else 
-            {
-                alert('Ta errado aí irmão!')
+            
+            capturandoUsuario = document.getElementById('nome').value;
+            capturandoSenha = document.getElementById('password').value
+
+            if(capturandoUsuario.includes('admin') && capturandoSenha.includes('admin')) {                
+                window.location.href = 'usuario.html'
+            }else { 
+                alert('Usuário ou Senha inválida! Tente outra vez')
             }
-        }        
+
+            
+                       
+        } 
+        
+        
          
         var btn = document.getElementById("btn");
+        
  
         btn.addEventListener("click", exibirMensagem);
 
-        const login = admin; 
-        const senha = admin;   
+         
        
     </script>
 
