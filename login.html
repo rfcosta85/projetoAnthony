@@ -80,7 +80,7 @@
                         </div>
                     </form>
 
-                    <label for="form"><input type="button" value="Enviar" class="btn btn-login"></label>
+                    <label><input type="submit" value="Enviar" class="btn btn-login" id="btn"></label>
                     <label><input type="button" value="Registrar-se" class="btn btn-registro"></label>
 
                     </div>
@@ -113,7 +113,27 @@
                 interval: 7500
             });
 
-        });
+        });       
+        
+        const verificandoLogin = document.getElementById('btn')
+
+        function exibirMensagem()
+        {
+            if(verificandoLogin === login) {
+                alert('Tudo bem')
+            }else 
+            {
+                alert('Ta errado aí irmão!')
+            }
+        }        
+         
+        var btn = document.getElementById("btn");
+ 
+        btn.addEventListener("click", exibirMensagem);
+
+        const login = admin; 
+        const senha = admin;   
+       
     </script>
 
 
