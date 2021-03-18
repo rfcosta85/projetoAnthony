@@ -67,7 +67,7 @@
 
                         <div id="area">
 
-                           <form action="" id="formulario">
+                           <form action="" id="formulario" class="publicar">
 
                             <fieldset>
 
@@ -113,16 +113,19 @@
             });
 
         }); 
+
+        
         
         function exibirMensagem()
         {
-            var data = new Date();
-            alert('Texto enviado com sucesso!');
+            var elemento = document.getElementById('valor').value
+            alert(`${elemento} Estou funcionando!`);
         }        
          
         var btn = document.getElementById("btn");
  
-        btn.addEventListener("click", exibirMensagem);       
+        btn.addEventListener("click", exibirMensagem);        
+        
         
     </script>   
 
