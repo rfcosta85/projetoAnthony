@@ -67,21 +67,40 @@
                         
                         <div class="input-field col s6">
 
-                            <input data-length="40" type="text" id="nome" placeholder="Insira o seu usuário">
-                            <label for="nome">Usuário</label>                            
+                            <input data-length="40" type="text" id="nome" placeholder="Insira o seu E-mail">
+                            <label for="nome">E-mail</label>                            
                             
                         </div>
 
                         <div class="input-field col s6">
 
-                            <input data-length="50" type="password" id="password" class="validate" placeholder="Insira o seu email">
-                            <label for="password">Digite a sua senha</label>
+                            <input data-length="50" type="password" id="password" class="validate" placeholder="Insira uma senha">
+                            <label for="password">Digite uma senha</label>
 
                         </div>
                     </form>
 
-                    <label><input type="submit" value="Enviar" class="btn btn-login" id="btn"></label>
-                    <label><input type="button" value="Registrar-se" class="btn btn-registro" id="btn-registro"></label>
+                    <div class="input-field col s12">
+
+                        <select multiple>
+                            <option value="" disabled selected>Selecione um valor</option>
+                            <option value="1">Liga Brasil de Basquete</option>
+                            <option value="2">Liga Brasil de Vôlei</option>
+                            <option value="3">Liga Brasil de Futebol 7</option>
+                            <option value="4">Liga Brasil Intercolegial</option>
+                            <option value="5">Liga Brasil de Futsal</option>
+                            <option value="6">Liga Futebol 7 Bauru sub-7</option>
+                            <option value="7">Liga Futebol 7 Bauru sub-9</option>
+                            <option value="8">Liga Futebol 7 Bauru sub-11</option>
+                            <option value="9">Liga Futebol 7 Bauru sub-13</option>
+                            <option value="10">Liga Futebol 7 Bauru sub-15</option>
+                            <option value="">Liga Futebol 7 Bauru sub15</option>                            
+                        </select>
+
+                        <label for="">Selecione as ligas que deseja se registrar</label>
+
+                    </div>
+                    <label><input type="button" value="Registrar-se" class="btn"></label>
 
                     </div>
                  </div>
@@ -112,6 +131,7 @@
                 height: 450,
                 interval: 7500
             });
+            $('select').material_select();
 
         });       
         
@@ -133,18 +153,12 @@
                 alert('Usuário ou Senha inválida! Tente outra vez')
             }           
                        
-        }     
-
-        function registrando()
-        {
-            window.location.href = 'registrar.html'
-        }  
+        }       
          
         var btn = document.getElementById("btn");
-        var btnRegistro = document.getElementById("btn-registro")        
+        
  
         btn.addEventListener("click", exibirMensagem);
-        btnRegistro.addEventListener("click", registrando)
 
          
        
