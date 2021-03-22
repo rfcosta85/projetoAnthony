@@ -392,13 +392,42 @@ fieldset {
 .user-login { 
     width: 50%;
     margin-left: 20%;
+    margin-top: 2%;
 }
 
 .btn-login {
     margin: 10% 20%;
 }
 
+.league-register-select { 
+    width: 100%;
+}
 
+.title-register {
+    margin-top: 25%;
+}
+
+.btn-register {
+    width: 100%;
+    margin-top: 3%;
+    
+}
+
+
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 16px;
+    color: var(--visual-identity-color);
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+.btn, .btn-large.active {    
+    
+    background-color: var(--visual-identity-color);
+    
+}
 
 .title-news {font-size: 1.5em; color: red;}
 
