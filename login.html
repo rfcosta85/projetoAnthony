@@ -118,34 +118,64 @@
        // const verificandoLogin = document.getElementById('btn')
         //const texto = document.getElementById('nome')
 
-        var capturandoUsuario = "";
-        var capturandoSenha = "";
+        //var capturandoUsuario = "";
+        //var capturandoSenha = "";
+//
+        //function exibirMensagem()
+        //{
+        //    
+        //    capturandoUsuario = document.getElementById('nome').value;
+        //    capturandoSenha = document.getElementById('password').value
+//
+        //    if(capturandoUsuario.includes('admin') && capturandoSenha.includes('admin')) {                
+        //        window.location.href = 'usuario.html'
+        //    }else { 
+        //        alert('Usuário ou Senha inválida! Tente outra vez')
+        //    }           
+        //               
+        //}     
+//
+        //function registrando()
+        //{
+        //    window.location.href = 'registrar.html'
+        //}  
+        // 
+        //var btn = document.getElementById("btn");
+        //var btnRegistro = document.getElementById("btn-registro")        
+ //
+        //btn.addEventListener("click", exibirMensagem);
+        //btnRegistro.addEventListener("click", registrando)
+//
+         // Fetch Para validar o envido de dados para o backend
 
-        function exibirMensagem()
-        {
+         const init = () => {
+            const inputEmail = document.getElementById('nome')
+            const inputPassword = document.querySelector('input[type="password"')
+            const submitButton = document.getElementById('btn')
             
-            capturandoUsuario = document.getElementById('nome').value;
-            capturandoSenha = document.getElementById('password').value
+            if(submitButton) {
+                submitButton.addEventListener('click', (event) => {
+                    event.preventDefault();
 
-            if(capturandoUsuario.includes('admin') && capturandoSenha.includes('admin')) {                
-                window.location.href = 'usuario.html'
-            }else { 
-                alert('Usuário ou Senha inválida! Tente outra vez')
-            }           
-                       
-        }     
+                    fetch('https://reqres.in/api/login', {
+                        method: 'POST',
+                        headers: {
+                            'content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            email: inputEmail.value,
+                            password: inputPassword.value,
+                        })
+                    }).then((response) =>{
+                        return response.json();
+                    }).then((data) => {
+                        console.log(data)
+                    })
+                })
+            }
+         }
 
-        function registrando()
-        {
-            window.location.href = 'registrar.html'
-        }  
-         
-        var btn = document.getElementById("btn");
-        var btnRegistro = document.getElementById("btn-registro")        
- 
-        btn.addEventListener("click", exibirMensagem);
-        btnRegistro.addEventListener("click", registrando)
-
+         window.onload = init;
          
        
     </script>
