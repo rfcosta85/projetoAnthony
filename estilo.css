@@ -431,6 +431,47 @@ fieldset {
 
 .title-news {font-size: 1.5em; color: red;}
 
+/*Estilizando o nav main do Insider*/
+
+.nav-main {
+    background-color: white;
+    height: 8vh;
+}
+
+.ul-nav-insider {
+    width: 100%;
+    
+}
+
+.title-nav-insider {
+    color: black;
+}
+
+.li-nav-insider {
+    padding-left: 3%;
+}
+
+.title-nav-insider, .title-nav-entrevistas {
+    text-transform: uppercase;
+    color: var(--visual-identity-color);
+    font-weight: bolder;
+}
+
+.title-nav-entrevistas {
+    font-size: 1.5em;
+    margin-top: 0%;
+}
+
+.title-nav-insider:hover, .title-nav-entrevistas:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.05);
+}
+
+
+.news-row-insider {
+    margin-top: 1%;
+}
+
 
 @media (min-width: 780px) {
 
