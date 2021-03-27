@@ -472,6 +472,27 @@ fieldset {
     margin-top: 1%;
 }
 
+/* Estilizando a página craque do jogo */
+
+.man-of-the-match-page-title {
+    font-size: 2.5em;
+    color: var(--visual-identity-color);
+    font-weight: bolder;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 1.4em;    
+}
+
+.man-of-the-match-selection {
+    margin: auto;
+}
+
+.btn-man-of-the-match-position {
+    position: relative;
+    left: 70%;
+    margin-top: 2%;
+}
 
 @media (min-width: 780px) {
 
