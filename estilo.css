@@ -413,8 +413,6 @@ fieldset {
     
 }
 
-
-
 .dropdown-content li>a, .dropdown-content li>span {
     font-size: 16px;
     color: var(--visual-identity-color);
@@ -429,8 +427,61 @@ fieldset {
     
 }
 
-.title-news {font-size: 1.5em; color: red;}
+/* Estilizando a página de destino das notícias */
 
+.title-news {
+    font-size: 3em; 
+    font-weight: bolder;
+    text-align: center;
+}
+
+.subtitle-news {
+    font-size: 1.8em;
+    color: rgba(66, 66, 66, 0.815);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.img-position, .subtitle-image {
+    text-align: center;
+}
+
+.subtitle-image {
+    font-size: 1.1em;
+}
+
+.body-news {
+    font-size: 1.3em;
+    margin-top: 5%;
+    text-align: center;    
+}
+
+.img-news {
+    width: 70%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.another-news {
+    margin-top: 5%;
+}
+
+.more-page-news {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-top: 3%;    
+}
+
+.more-page-news:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    -webkit-transform: scale(1.05);    
+}
 /*Estilizando o nav main do Insider*/
 
 .nav-main {
