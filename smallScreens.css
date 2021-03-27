@@ -158,6 +158,12 @@ fieldset {
 
 }
 
+@media (min-width: 376px) and (max-width: 425px) {
+    .buscador {
+        margin-top: 3.5%;
+    }
+}
+
 @media (min-width:768px) and (max-width: 868px) {
     .buscador {
         left: 75%;
@@ -177,5 +183,11 @@ fieldset {
 
     .btn-login {
         margin-left: 0%;
+    }
+}
+
+@media (min-width:1601px) and (max-width: 3000px) {
+    .buscador {
+        margin-top: 3%;
     }
 }
