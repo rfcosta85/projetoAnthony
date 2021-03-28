@@ -175,6 +175,13 @@ fieldset {
     left: 40%;
 }
 
+/*Estilizando a página de Inscrições */
+
+.btn-subscription {
+    left: 45%;
+    margin-bottom: 5%;
+}
+
 }
 
 @media (min-width: 376px) and (max-width: 425px) {

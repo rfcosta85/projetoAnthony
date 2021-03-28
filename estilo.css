@@ -599,6 +599,30 @@ fieldset {
     font-size: 1.5em;
 }
 
+/* Estilizando a página Inscrições */
+
+.subscription-title {
+    font-size: 2.5em;
+    color: var(--visual-identity-color);
+    font-weight: bolder;
+}
+
+.subscription-selection {
+    margin: auto;
+    margin-top: -10%;    
+}
+
+.subscription-form {
+    margin-top: 10%;
+}
+
+.btn-subscription {
+    position: relative;
+    left: 70%;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
+}
+
 @media (min-width: 780px) {
 
     li:hover,
