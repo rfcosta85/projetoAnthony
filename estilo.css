@@ -585,6 +585,20 @@ fieldset {
     margin-top: 2%;
 }
 
+/* Estilizando a página TecnoFavela  */
+
+.tecno-favela-title { 
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    color: var(--visual-identity-color);
+}
+
+.tecno-favela-about {
+    text-align: center;
+    font-size: 1.5em;
+}
+
 @media (min-width: 780px) {
 
     li:hover,
