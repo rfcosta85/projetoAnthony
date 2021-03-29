@@ -623,6 +623,17 @@ fieldset {
     margin-bottom: 2.5%;
 }
 
+/* Estilizando a página de contato */
+
+.form-contact { 
+
+    margin-top: -1%;
+}
+
+.msg-contact {
+    height: 40vh;
+}
+
 @media (min-width: 780px) {
 
     li:hover,

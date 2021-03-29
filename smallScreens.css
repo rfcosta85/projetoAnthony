@@ -182,6 +182,11 @@ fieldset {
     margin-bottom: 5%;
 }
 
+/* Estilizando página de contato */
+.msg-contact {
+    height: 30vh;
+}
+
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
